@@ -10,4 +10,10 @@ public class Branch {
 		public void setChange(int change) {
 			this.change = change;
 		}
+
+		public Branch(int change) {
+			super();
+			this.change = change;
+		}
+		
 }
